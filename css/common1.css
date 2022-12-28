@@ -550,6 +550,51 @@ footer .ft_icons > a > img {
   .icon1 p {
     font-size: 12px;
   }
+  /* sec1 end */
+
+  /* sec2 start */
+  .sec2_title div h1 {
+    font-size: 25px;
+  }
+  .sec2_title div p {
+    font-size: 14px;
+  }
+  .review p:nth-of-type(2)::after {
+    width: 180%;
+  }
+  .slide2 .item {
+    font-size: 16px !important;
+  }
+  .price {
+    /* border: 1px solid blue; */
+    font-size: 16px !important;
+  }
+  .slide2 .swiper-slide div:nth-of-type(2) p:nth-of-type(3),
+  .slide2 .swiper-slide div:nth-of-type(2) p:nth-of-type(4) {
+    font-size: 12px;
+  }
+  /* sec2 end */
+
+  /* sec3 start */
+  .sec3_title div h1 {
+    font-size: 25px;
+  }
+  .sec3_title div p {
+    font-size: 14px;
+  }
+  #sec3 .review p:nth-of-type(2)::after {
+    width: 180%;
+  }
+
+  .slide3 .item {
+    font-size: 15px !important;
+  }
+  .slide3 .swiper-slide div:nth-of-type(2) p:nth-of-type(3),
+  .slide3 .swiper-slide div:nth-of-type(2) p:nth-of-type(4) {
+    font-size: 12px;
+  }
+  /* sec3 end */
+  /* footer */
   .ft {
     flex-wrap: wrap;
   }
