@@ -510,3 +510,58 @@ footer .ft_icons > a > img {
   display: inline-block;
   width: 40px;
 }
+
+@media (max-width: 1300px) {
+  .hd .login {
+    display: none;
+  }
+  .hd .ham {
+    display: block;
+    font-size: 30px;
+  }
+  .floating {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .wrap {
+    overflow: hidden;
+  }
+  /* header */
+  .hd .gnb {
+    display: none;
+  }
+
+  #sec1 .slide1 ul li {
+    margin-top: 30%;
+    width: 150%;
+  }
+  #sec1 .slide1 ul li img {
+    width: 150%;
+  }
+
+  .sec1_icon > div {
+    padding: 1.5rem 1rem;
+  }
+  .icon1 img {
+    width: 40px;
+    height: 40px;
+  }
+  .icon1 p {
+    font-size: 12px;
+  }
+  .ft {
+    flex-wrap: wrap;
+  }
+
+  .ft_left .ft_loc {
+    display: none;
+  }
+  .ft_service {
+    /* border: 1px solid red; */
+    margin-top: 10px;
+  }
+  .ft_service .open {
+    padding-left: 0;
+  }
+}
